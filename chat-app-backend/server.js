@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
     cors: {
-        origin: 'https://real-time-chat-app-react-one.vercel.app/, 
+        origin: 'http://localhost:3000, 
         methods: ['GET', 'POST']
     }
 });
